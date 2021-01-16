@@ -1,0 +1,62 @@
+.container{
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .star {
+    color: grey;
+}
+  
+.active, .star:hover {
+    color: orange;
+} 
+
+.movie_poster img{
+    max-height: 90px;
+}
+
+.movie_poster:hover img{
+    max-height:100px;
+}
+
+.details{
+    margin-top: 17px;
+    display:flex;
+    flex-direction: column;
+}
+
+.list{
+    padding-inline-start: 0px;
+}
+
+.movie_item .deleteMovie{
+    margin-top:16px;
+    opacity: 0.3 ;
+}
+
+.movie_item:hover .deleteMovie {
+    opacity: 0.9;
+}
+
+.movie_item{
+    list-style-type: none;
+    min-width: 50%;
+    align-items: center;
+    border: 2px solid green;
+}
+
+@media (max-width: 400px){
+    .container{
+        height: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        direction:column;
+        color: red;
+    }
+    
+}

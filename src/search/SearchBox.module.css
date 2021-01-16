@@ -1,0 +1,12 @@
+.main {
+    margin-top: 20px;
+    height: 100%;
+}
+
+.main .myBtn{
+    background-color: #b8a9c9;
+    color:white;
+    margin-left: 8px;
+    padding: 6.6px 15px;
+}
+
